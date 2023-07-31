@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.shier.shierbi.utils.EasyExcelTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in com.shier.shierbi.utils.EasyExcelTest
+doImport  Time elapsed: 0.001 s  <<< ERROR!
+java.io.FileNotFoundException: class path resource [test_excel.xlsx] cannot be resolved to absolute file path because it does not exist
+	at com.shier.shierbi.utils.EasyExcelTest.doImport(EasyExcelTest.java:24)
+

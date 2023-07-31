@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.shier.shierbi.manager.AiManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.281 s <<< FAILURE! - in com.shier.shierbi.manager.AiManagerTest
+doChat  Time elapsed: 1.268 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.shier.shierbi.manager.AiManagerTest.doChat(AiManagerTest.java:20)
+

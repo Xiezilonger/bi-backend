@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.shier.shierbi.service.ChartServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.506 s <<< FAILURE! - in com.shier.shierbi.service.ChartServiceTest
+queryChartData  Time elapsed: 0.494 s  <<< ERROR!
+org.springframework.jdbc.BadSqlGrammarException: 
+
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'shierbi.chart_1659210482555121666' doesn't exist
+### The error may exist in file [C:\Users\Lenovo\Desktop\guabi-backend\target\classes\mapper\ChartMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from chart_1659210482555121666
+### Cause: java.sql.SQLSyntaxErrorException: Table 'shierbi.chart_1659210482555121666' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'shierbi.chart_1659210482555121666' doesn't exist
+	at com.shier.shierbi.service.ChartServiceTest.queryChartData(ChartServiceTest.java:25)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'shierbi.chart_1659210482555121666' doesn't exist
+	at com.shier.shierbi.service.ChartServiceTest.queryChartData(ChartServiceTest.java:25)
+
