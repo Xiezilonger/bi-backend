@@ -57,13 +57,13 @@ mybatis-plus:
 aliyun:
   oss:
     file:
-#      endpoint: LTAI5tEjnfWGHEkysqpWKpFH
-#      keyid: RJ8GNtFYiljeNf4aXDssAJcHzSEgqA
+#      endpoint: 
+#      keyid: 
 #      keysecret:
 #      bucketname:
 
-#   access-key: LTAI5tEjnfWGHEkysqpWKpFH
-#   secret-key: RJ8GNtFYiljeNf4aXDssAJcHzSEgqA
+#   access-key: 
+#   secret-key: 
 #   bucketname: xxxx
 ## 要使用的模型ID
 ai:
@@ -72,12 +72,11 @@ ai:
 # 鱼聪明SDK
 yuapi:
   client:
-    access-key: lzzp3r4vs38671nek3hppb9bwkl3vq90
-    secret-key: 9h856llct7tr28hdjyikk4u19d1ru0n0
+    access-key: 
+    secret-key: 
 # 支付宝沙箱
 pay:
   qrcodeurl: http://localhost:8103/api/alipay/tradeQuery?alipayAccountNo=%s
   alipay:
     APP_ID: 9021000123630043
-    APP_PRIVATE_KEY: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCK+dR3EMS5W1N2bb01OFdQsHVvSbQPc5VsiUOdEUcKOQIohjjDOV9FAG5TZYeLnMYAh8+zoUQNlCTCckcEjQ7YdAhWwITlzYoQm6lMwwrxkihc0Lw+uY9XGeJyvhMwaXixx4TmTJD5cmDduhtkRCebX0+DUyP7jIFT+/XFhqfEfmW7xQrypRPB14sshD5wJM8Vx/aU0upv1R/Qf+tP/OiWbZSUY72MgLLmvEyKxg7gbQ3/OxxB9hd8k0lsr4jJGAia0MR/nVUoBAimWEomiPXTACv/396FlT2cKkEAy5NYpEyvoxPelGkkLT79Gf+D32VwjOZ7cbaa7LdtjHqID7YJAgMBAAECggEAAdwYAMPjrgtP0ZzkVEr9uCG0YJne4/oK/NnVYsuxZKygn8Q0DEC/SqAX2dvY9YBSkf0/RUsaKwhZeZSn6KKumSzsU6Td4mleuJwsps9RXSw0iBFvA3PePC8nfZuXjCVNLSvbVm2d3witzSnJZg0XbpfW6434REx8CpCrmEoWAqYdT+S6mrqYB2FH4BfWN1x24mcqGODPAzQpuzjMtfVwwMeMjsf6g6lrqlIcF9uSICd/WiYWrC0KL1UHz6akQ14HjtkVrK+voFlGhYIjJ9XLmgukkvClSUgcZ67rmb9NP/LFujrE5C6tntGv34IdgYsBGSNTlvSQeP9D5O3kYRlR9QKBgQC/nz8zEU1Qfua0KhEjTpgOVWsvY2Tug7UhGUhgkBr5z5UJJAg5MWc95Af3SIBSHk6O18WTzbgZA1z9DLI1lloLl4CGqKcAq2IMtRMSaAEo8JngaKvp9ejOXO3urBuPpV1o7iEq3dWsDfed3qWTSU02Iy74FFUrLzIKPMOqjxyT2wKBgQC5qqsPys7uLdVTiyUTxpGkxG9QYClrIl4whNq8cZuq/aK8YeXLGgYYjWyyGAtcgpgSq0VrxS8AaIK8RGsbJmWQKx3hqjIUQf0YnLe+BzqcLs6dvMtjNtGZDKQoGgsW5JotUK/+6O9AlyQ0eT2KZQpDHDP5/yYNcjpFN0TIF/q06wKBgDnlSnoKezqb7OZ4Y08wmt6Rzl22ATPTVXGXqveJ8qyRnGzzlwx4scHQWNvM6wBkqcWcydRbbokYLAtEv79TGwevkaSd5j9ciLZgK0//XoJZF5Tm6zI4G0vmZfkbxQQEqZFfiWPjPIDMg4kOUSaMGikGPlW0BvuSOeM/8rpgnPjLAoGBAJ3pZmycFbvGB7ZylipnrN/yoqo933xbUrj5hgDYr4mTB6IpsYQ4sg6X2mbuxFr+R9E5EmZC42L5gJgXqPECi0c/JL8WPlm0dktEn5JkG5lSxjCqrmHH8iS197iTzfK+o9L+2XF5NGQ/KG/o3kqi/UNu7VYniHnPOXg9NabpnjXZAoGBAKFkyvOm82NdVulNhVymVJAHYfkp0tyh7dIcZqlRY4FlAOQZgmJUkmmWIK31KrXc/oGh4mOvCRRCagXj+9wLS1tMHi1T+SySZr5iyyW3l6aoxGZ1bkw9UfPVgi5cGMlTaF495OOmeGYVgMhpsOAXlg4Qez5n1CiqWk4DIxbAwQdA
-    ALIPAY_PUBLIC_KEY: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAni38E0bj5c+K7QpktzfN+epv27v71iKKFsjrZA2Xyv7o34oq23JnoaH05AHnOe8K3V00JCWLHrE5lhpTawj5JJ/HbHEn6BjRPug5gowCiAgS0lZ8gnIe+jQTVZdMmxggkVsKDZjy3xiPDBp80iSxz8UYCmbxPbGB+hRChUFRlwJf03MVTf8W6hS5tcuSkqgmh3P0YZ03o4P3QAzbk2or/dzNDTSrLt9k/RIvQiC0Xg6QKcQya2SJ1CHdURmdoekb2KpEodlROHLfmAfUENtSnCdtQYeC7rdmo3aI3jmA51HE6WUXFylgGhVdcezd+u9ng9mcb57/pTqcd6b3JapoDQIDAQAB
+    APP_PRIVATE_KEY: 
