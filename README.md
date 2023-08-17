@@ -1,4 +1,19 @@
-# 智能BI平台
+<p align="center">
+   基于React+Spring Boot+RabbitMQ+AIGC的智能BI数据可视化平台，并加入了AI聊天功能。
+</p>
+
+<p align="center">
+   <a target="_blank" href="https://github.com/ttkican/Blog">
+      <img src="https://img.shields.io/badge/JDK-8-green"/>
+      <img src="https://img.shields.io/badge/springboot-2.7.0-green"/>
+      <img src="https://img.shields.io/badge/react-green"/>
+      <img src="https://img.shields.io/badge/mysql-5.7-green"/>
+      <img src="https://img.shields.io/badge/mybatis--plus-3.5.2-green"/>
+      <img src="https://img.shields.io/badge/redis-6.2.6-green"/>
+      <img src="https://img.shields.io/badge/nacos-2.2.1-green"/>
+   </a>
+</p>
+
 
 > 作者：[Zilong](https://github.com/Xiezilonger)
 
@@ -96,6 +111,38 @@
 9. 优化前端显示，效果如下展示
 10. 用户查看原始数据
 11. 新增AI对话，用户提交问题，AI分析解答
+
+## 项目截图
+###登陆界面
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/001.png)
+###注册界面
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/002.png)
+###首页
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/003.png)
+###智能分析（同步）
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/004.png)
+###能分析（异步）
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/005.png)
+###图表中心
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/006.png)
+###猫咪AI
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/007.png)
+###猫咪解答
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/008.png)
+###个人信息
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/009.png)
+###个人订单
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/010.png)
+###订单付款
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/011.png)
+###支付信息查询
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/012.png)
+###用户管理（仅管理员可见）
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/013.png)
+###添加用户（仅管理员可见）
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/014.png)
+###所有用户图表集中管理（仅管理员可见）
+![](https://living-10086.oss-cn-chengdu.aliyuncs.com/bi-oss/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/015.png)
 
 ## 项目BUG
 - AI生成的内容导致查询图表出现报错，由于AIGC得出的结果不一定是JSON数据，导致前端JSON数据格式解析失败
